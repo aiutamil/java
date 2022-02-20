@@ -1,2 +1,3 @@
 # java
-java 
+At first i created java project and then created 2 packages. One of them for shapes, like Rectangle,Circle,Square. Second was for my Area Calculator. By creating a packages i used REP: The Reuse/Release Equivalence Principle and CCP: The Common Closure Principle, which says to gather into components those classes that change for the same reasons and at
+the same times. I put classes that are grouped together in one package. For future it would be easy to change or upgrade the code, because it would be easy to read. I made it so that classes and modules that tend to be reused together belong in the same component, and here I used the principle CRP: The Common Reuse Principle.
